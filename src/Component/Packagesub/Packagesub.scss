@@ -1,0 +1,114 @@
+
+
+
+
+.pkgindividual {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    row-gap: 30px;
+    // display: flex;
+    // flex-wrap: wrap;
+    // justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 100px;
+  
+    .carddiv {
+  
+      width: 400px;
+      margin-left: 55px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      transition: transform 0.3s ease-in-out;
+    }
+    
+    .card:hover {
+      transform: scale(1.05);
+      text-decoration: none;
+    }
+    
+    
+    
+    .card-body {
+      padding: 15px;
+    }
+    
+    .card-text {
+      font-size: 18px;
+      font-weight: bold;
+      
+      text-align: center;
+    
+    }
+    
+    .card-sub {
+      color: #888;
+      margin-top: 10px;
+    
+    }
+  
+  
+  }
+  .about {
+    padding-top: 50px;
+    height: 500px;
+    width: 100%;
+   
+
+    .about h1 {
+        color: rgb(30, 26, 26);
+        font-weight: bold;
+    }
+    
+    .about p {
+        font-style: oblique;
+        color: gray;
+    }
+    
+
+    
+}
+
+.inner-contents {
+    position: absolute;
+    left: 580px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+}
+
+.inner-contents h4 {
+
+    margin-top: -10px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.icns{
+    text-align: center;
+    color: rgba(9, 111, 194, 0.823);
+    font-size: 40px;
+}
+.car{
+    border: 1px solid rgba(9, 111, 194, 0.823);
+    padding: 10px;
+}
+.pbutton{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px ;
+    text-align: center;
+   
+    .pbtn{
+        border-radius: 0;
+        background-color:rgb(188, 184, 184);
+        color: black;
+        border-color: transparent;
+           
+
+    }
+}

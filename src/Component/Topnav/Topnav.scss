@@ -1,0 +1,124 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+$background: #fffffe;
+$color-highlight: #6246ea;
+$color-secondary: #d1d1e9;
+$color-tertiary: #e45858;
+$color-text: #2b2c34;
+$width-btn: 125px;
+
+body {
+  background-color: $background;
+  
+}
+
+nav {
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(18, 101, 209, 0.91);
+padding: 0;
+margin: 0;
+height: 35px;
+
+
+  // background-color: white;
+  // padding: 20px;
+  .logo{
+    padding-top: 10%;
+      margin-left: 10%;
+      background-color: white;
+      border: 1px solid transparent;
+      padding: 25px;
+      box-shadow: 3px 3px 3px 3px gray;
+      border-radius: 20px;
+      
+    img{
+      padding-top: 150%;
+      margin-left: 10%;
+      
+    }
+  }
+  
+
+
+}
+
+.navigation {
+  list-style: none;
+  margin-left: 30%;
+padding-top: 10px;
+color: white;
+font-size: small;
+
+
+  li {
+    
+    display: inline-block;
+    margin-left: 30px;
+   
+        
+    &:first-child {
+      margin-left: 0;
+      
+    }
+
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: $color-text;
+      position: relative;
+
+      &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: #000;
+        // transform-origin: bottom right;
+        transition: transform 0.3s ease-out;
+      }
+
+      &:hover::before {
+        transform: scaleX(1);
+        // transform-origin: bottom left;
+      }
+    }
+  }
+}
+
+// .btn-main,
+// .btn-hot {
+//   padding: 10px;
+//   text-align: center;
+//   border: none;
+//   border-radius: 100px;
+//   text-transform: uppercase;
+//   width: $width-btn;
+
+//   &:hover {
+//     cursor: pointer;
+//   }
+// }
+
+// .btn-main {
+//   color: white;
+//   background-color: $color-highlight;
+// }
+
+// .btn-hot {
+//   background-color: $color-secondary;
+// }

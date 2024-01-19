@@ -1,0 +1,235 @@
+.footer-wrapper {
+   
+    width: 100%;
+    position: relative;
+    background: url(assets/img/footer-bg.jpg) no-repeat center center fixed #231f20;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container {
+    max-width: 1240px !important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.downloadbrocure {
+    width: 100%;
+    background: var(--BlueColor);
+    padding: 0px 45px 0px 0px;
+    margin: 0;
+    position: relative;
+    min-height: 120px;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+::selection {
+    background: var(--BlueColor);
+    color: #fff;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.downloadbrocure .col-lg-9 {
+    padding-left: 150px 
+px
+;
+}
+.downloadbrocure .col-lg-3 {
+    text-align: right;
+}
+.downloadbrocure .col-lg-3 a {
+    border: 2px solid var(--LightBgColor);
+    color: var(--LightBgColor);
+    display: inline-block;
+    line-height: 38px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0px 30px;
+    border-radius: 26px;
+    transition-duration: 0.3s;
+    margin-top: 38px;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+a {
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.downloadbrocure .col-lg-3 {
+    text-align: right;
+}
+.downloadbrocure .col-lg-3 a i {
+    margin-right: 8px;
+}
+.fa, .fas {
+    font-weight: 900;
+}
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
+}
+.fa, .fab, .fad, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+i {
+    font-style: italic;
+}
+.downloadbrocure .col-lg-3 a {
+    border: 2px solid var(--LightBgColor);
+    color: var(--LightBgColor);
+    display: inline-block;
+    line-height: 38px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0px 30px;
+    border-radius: 26px;
+    transition-duration: 0.3s;
+    margin-top: 38px;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.footer-links h4 {
+    width: 100%;
+    padding: 0;
+    margin: 0px 0px 26px 0px;
+    color: var(--LightBgColor);
+    font-size: 22px;
+}
+.footer-links .link-container ul {
+    width: 100%;
+    padding: 0;
+    margin: 0px;
+}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+ol, ul {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.footer-links .link-container ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0px 0px 12px 0px;
+    line-height: normal;
+    font-size: 15px;
+    font-weight: 400;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    /* text-align: -webkit-match-parent; */
+}
+user agent stylesheet
+ul {
+    list-style-type: disc;
+}
+.footer-links h4 {
+    width: 100%;
+    padding: 0;
+    margin: 0px 0px 26px 0px;
+    color: var(--LightBgColor);
+    font-size: 22px;
+}
+.h4, h4 {
+    font-size: 1.5rem;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: var(--headingColor);
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif !important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+/* user agent stylesheet */
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}

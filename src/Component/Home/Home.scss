@@ -1,0 +1,343 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+
+.carousel {
+    padding-top: 4%;
+    .inner-contents {
+        position: absolute;
+        left: 370px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: white;
+        font-size: 80px;
+        font-family: 'Grey Qo', cursive;
+        font-weight: 500;
+    
+    
+    }
+    
+    .inner-contents h4 {
+    
+        margin-top: -10px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        
+    }
+  
+}
+
+.mouse{
+    text-align: center;
+   
+
+    img{
+        height: 20px;
+        animation: slide-top 4s  linear infinite ;
+        // animation-delay: 2s;
+    }
+}
+
+.travel{
+  padding-top: 25px;
+  .tp{
+    text-align: center;
+    font-size:45px;
+    font-family: 'Lora', serif;
+
+    
+  }
+}
+
+
+
+.crd {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  row-gap: 30px;
+  // display: flex;
+  // flex-wrap: wrap;
+  // justify-content: space-between;
+  margin-top: 20px;
+
+  .card {
+
+    width: 400px;
+    margin-left: 55px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    text-decoration: none;
+  }
+  
+  
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .card-text {
+    font-size: 18px;
+    font-weight: bold;
+    
+    text-align: center;
+  
+  }
+  
+  .card-sub {
+    color: #888;
+    margin-top: 10px;
+  
+  }
+
+
+}
+
+.blue{
+  background-color: rgba(9, 111, 194, 0.823);
+  height: 12vh;
+margin-top: 80px;
+
+
+.happyhead{
+  color: white;
+  font-size: 50px;
+  padding-top: 5px;
+  
+}
+ .detailtext{
+  color: white;
+  // text-align: center;
+ }
+.table{
+text-align: center;
+
+th{
+  border: 1px solid rgb(211, 211, 211);
+  border-top: transparent;
+  border-bottom: transparent;
+  border-left: transparent;
+ 
+}
+
+}
+}
+
+
+
+.roundt {
+  background-color:rgb(234, 246, 250);
+  
+  .text-container {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    // Adjust margins or paddings as needed
+    margin: 20px; 
+  }
+  .discover h2{
+    text-align: justify;
+    margin-left: 100px;
+    font-family: 'Old Standard TT', serif;
+    font-size: 50px;
+  }
+   
+  .tourspara {
+    max-width: 580px; // Adjust the max-width as needed
+    text-align: justify;
+    margin-left:100px;
+    font-family: 'Old Standard TT', serif;
+    font-size: 15px;
+    font-family: 'Old Standard TT', serif;
+    font-weight:550;
+    // Other styling for tourspara
+  }
+
+  .image-container {
+    flex-shrink: 0; // Prevent the image from shrinking
+
+    // Adjust margins or paddings as needed
+    margin-right: 230px; 
+    margin-bottom: 30px;
+   
+   
+  }
+  img{
+    width: 500px;
+    padding-top: 80px;
+  border-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+    
+
+  }
+  .readmore{
+    background-color: whitesmoke;
+    border-color:  rgba(9, 111, 194, 0.823) ;
+    color:  rgba(9, 111, 194, 0.823);
+    margin-left: 100px;
+
+  }
+  .readmore:hover{
+    background-color: rgba(9, 111, 194, 0.823) ;
+    color: white;
+    transition: 0.5s;
+  }
+}
+.testimonials{
+  h2{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Old Standard TT', serif;
+    font-size:45px;
+  }
+ 
+}
+.cardsss{
+ padding-top: 20px;
+ gap: 20px;
+padding: 30px;
+
+
+.rate1{
+  color: rgb(249, 184, 20);
+  // padding: 5px;
+  font-size: 15px;
+}
+
+.carcard{
+  display: flex;
+ 
+
+}
+img{
+  width: 80px;
+  border-radius: 40px;
+}
+.samuel{
+  padding:20px;
+}
+}
+// .row-container {
+//   display: flex;
+//   justify-content: space-evenly; /* or other values based on your preference */
+//   padding-top: 50px;
+
+
+  
+// }
+
+// .inquiry{
+//   width: 400px;
+//   margin: 0 auto 0;
+//   border: 1px solid ;
+//   border-radius: 10px;
+//   padding: 50px;
+//   background-color:  rgba(9, 111, 194, 0.823) ;
+//   color: white;
+//   h5{
+//     text-align: center;
+//     font-size: 30px;
+//   }
+// }
+// .input-holder{
+//   position: relative;
+//   margin: 0 0 20px;
+ 
+// }
+
+// input,
+// textarea{
+//   border: 2px solid  rgba(9, 111, 194, 0.823) ;
+//   border-radius: 4px;
+//   padding: 10px;
+//   width: 100%;
+//   resize: none;
+  
+//   transition: .3s;
+//   // background-color:  rgba(9, 111, 194, 0.823) ;
+//   &:focus{
+//     border: 2px solid #999;
+//     outline: none;
+//   }
+// }
+// textarea{
+//   min-height: 100px;
+// }
+// .message{
+//   position: absolute;
+//   z-index: 9;
+//   display: none;
+//   width: 100%;
+//   padding: 10px;
+//   margin-top: 10px;
+//   background: #D9585C;
+//   color: #fff;
+//   text-align: center;
+//   &:after{
+//     content:'';
+//     position: absolute;
+//     top: -10px;
+//     left: 50%;
+//     display: block;
+//     margin-left: -10px;
+//     border: solid;
+//     border-color: #D9585C transparent #D9585C;
+//     border-width: 0 10px 10px;
+//   }
+// }
+// .is-valid{
+//   border-color: #AAD661 !important;
+//   transition: 0;
+// }
+// .not-valid{
+//   border-color: #D7595F;
+//   transition: 0;
+//   &+.message{
+//     display: block !important; 
+//   }
+// }
+// .btttt{
+//   margin-left: 85px;
+// }
+// .submitbttaa{
+//   display: block;
+//   width: 50%;
+//   text-align: center;
+//   padding: 10px;
+//   border: 2px solid ;
+//   border-radius: 4px;
+//   background: transparent;
+//   color:black;
+//   transition: .3s;
+ 
+  
+// }
+
+
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  25% {
+    -webkit-transform: translateY(-25px);
+            transform: translateY(-25px);
+  }
+  50% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {    
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
